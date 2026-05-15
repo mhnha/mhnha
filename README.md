@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## System Architecture
+
+```mermaid
+flowchart LR
+User --> ReactFrontend
+ReactFrontend --> FastAPI
+FastAPI --> Redis
+FastAPI --> Milvus
+FastAPI --> PostgreSQL
+```
